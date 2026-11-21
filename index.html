@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyNotes — Notes, Tasks &amp; Document Scanner</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.55;
+      color: #111;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 32px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+    section {
+      margin-bottom: 48px;
+    }
+    .app-card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+    .shots {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      margin-top: 16px;
+      padding-bottom: 8px;
+    }
+    .shot-item {
+      flex: 0 0 auto;
+      width: 190px;
+    }
+    .shot-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid #eee;
+      display: block;
+    }
+    .shot-caption {
+      font-size: 13px;
+      color: #444;
+      margin-top: 6px;
+    }
+    .disclaimer {
+      background: #f6f6f7;
+      border-left: 3px solid #666;
+      padding: 12px 14px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#apps">Apps</a>
+    <a href="#support">Support</a>
+    <a href="#privacy">Privacy Policy</a>
+  </nav>
+
+  <section id="apps">
+    <h1>Applications</h1>
+    <div class="app-card">
+      <h2>MyNotes</h2>
+      <p>
+        Personal notes and task organizer with due dates and times, priority levels, categories/tags, search, archive management, document scanning via camera, and multi-language interface support (English, Ukrainian, Russian).
+      </p>
+      <div class="disclaimer">
+        <strong>Permissions &amp; Data Notice:</strong> Camera access is optional and used solely when you choose to scan documents into your notes. All notes, tasks, and archive items are managed locally on your device.
+      </div>
+
+      <div class="shots">
+        <div class="shot-item">
+          <img src="screenshots/1.png" alt="Notes overview screen" />
+          <div class="shot-caption"><strong>Notes Overview:</strong> Manage notes, view categories, priorities, and search saved entries.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/2.png" alt="Localized interface in Ukrainian" />
+          <div class="shot-caption"><strong>Localized Interface:</strong> Full view of notes and controls in Ukrainian.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/3.png" alt="Swipe action revealing Archive button" />
+          <div class="shot-caption"><strong>Swipe Actions:</strong> Move notes to the archive with a quick swipe gesture.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/4.png" alt="Priority selector with High, Medium, and Low levels" />
+          <div class="shot-caption"><strong>Priority Levels:</strong> Assign priority levels to keep important tasks clear.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/5.png" alt="Archive view showing archived notes" />
+          <div class="shot-caption"><strong>Archive:</strong> View and filter archived notes separately from active tasks.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/6.png" alt="Document scanner view and camera permission dialog" />
+          <div class="shot-caption"><strong>Document Scanner:</strong> Scan documents into notes with camera access requested only when used.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/7.png" alt="Language selector showing English, Ukrainian, and Russian" />
+          <div class="shot-caption"><strong>Language Switcher:</strong> Switch interface language between English, Ukrainian, and Russian.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/8.png" alt="Calendar date picker" />
+          <div class="shot-caption"><strong>Calendar Selection:</strong> Pick any target date from the monthly calendar view.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/9.png" alt="Note creation form with Add Note button active" />
+          <div class="shot-caption"><strong>Quick Creation:</strong> Enter a note title, date, time, and priority, then save it with one tap.</div>
+        </div>
+        <div class="shot-item">
+          <img src="screenshots/10.png" alt="Time wheel picker" />
+          <div class="shot-caption"><strong>Time Picker:</strong> Set a specific time for reminders and scheduled notes.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p>Need help, have questions, or found a bug? Contact support at: <a href="mailto:abmixdj@gmail.com">abmixdj@gmail.com</a></p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>Last updated: November 2026</p>
+    <p>
+      MyNotes respects your privacy. Your notes, dates, priorities, archive items, and scanned documents remain on your device and are not sold or transferred to third parties.
+    </p>
+  </section>
+</body>
+</html>
